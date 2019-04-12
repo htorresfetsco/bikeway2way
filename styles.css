@@ -1,0 +1,42 @@
+/* CSS files add styling rules to your content */
+
+body {
+  background-color: beige;
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  border-color: red;
+}
+a{
+  color: red;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.map-wrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#map {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.layer-picker {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  z-index: 20000;
+}
