@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hugo test#7!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- Load Leaflet CSS -->
+    <link href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" rel="stylesheet">
+    
+    <!-- Load our styles -->
+    <link href="./styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>
+    
+    Citi Bike Stations, Subway Stations and Bike Lanes in NYC</h1>
+    
+      <p>
+        
+    <div class="map-wrapper">
+    <div id="map"></div>
+            
+      <select class="layer-picker">
+        <option value="all">All Directions</option>
+        <option value="2">Two Way</option>
+        <option value="L">Left Lane</option>
+        <option value="R">Right Lane</option>
+      </select>
+      </div>
+      
+    <!-- Load Leaflet and Carto libraries -->
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://libs.cartocdn.com/carto.js/v4.1.11/carto.min.js"></script>
+    
+    <!-- Load our JavaScript -->
+    <script src="./script.js"></script> 
+    
+      
+    </p>
+    
+    <p>
+      ______________________________________
+    </p>
+    <p>
+      Brought to you by Hugo, made with <a href="https://glitch.com">Glitch</a>!
+    </p>
+     <p>
+      ______________________________________
+    </p>
+    
+  <p>
+    <img src="https://cdn.glitch.com/d01003ac-6f55-4835-b25b-751150d61c8d%2FThe_New_School_logo.png?1550195359226">
+  </p>
+      
+
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+  </body>
+</html>
